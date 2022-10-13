@@ -35,3 +35,6 @@
 .btn-cart:hover {
   background-color: orange;
 }
+.btn-cart p {
+  margin-right: 10px;
+}
