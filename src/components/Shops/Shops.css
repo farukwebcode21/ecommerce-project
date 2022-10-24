@@ -11,6 +11,11 @@
   background-color: antiquewhite;
   padding-left: 20px;
 }
+.review-btn {
+  margin-left: 20px;
+  position: sticky;
+  top: 280px;
+}
 @media screen and (max-width: 1100px) {
   .products-container {
     grid-template-columns: repeat(2, 1fr);
