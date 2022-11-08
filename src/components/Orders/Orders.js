@@ -28,10 +28,7 @@ const Orders = () => {
     <div className="shops-container ">
       <div className="review-item-container">{product}</div>
       <div className="card-container">
-        <Cart cart={cart} />
-        <Link to="/inventory">
-          <button className="review-btn">Proceed Checkout</button>
-        </Link>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
