@@ -29,8 +29,8 @@ const Orders = () => {
       <div className="review-item-container">{product}</div>
       <div className="card-container">
         <Cart cart={cart}>
-          <Link to="/inventory">
-            <button>Proceed Check Out</button>
+          <Link to="/shipment">
+            <button>Proceed Shipping</button>
           </Link>
         </Cart>
       </div>
